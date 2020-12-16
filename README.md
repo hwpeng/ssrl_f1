@@ -12,6 +12,8 @@ It is based on [bsg_bladerunner](https://github.com/bespoke-silicon-group/bsg_re
 
 3. Run `make aws-fpga.setup.log`
 
+4. Put all your design files inside [design/v](design/v) and change the [filelist](design/filelist.mk) file appropriately
+
 ## [Makefile](Makefile) targets
 * `setup-aws-fpga`: Build all tools and updates necessary for AWS FPGA
 * `build-tarball` : Compiles the design (locally) as a tarball
