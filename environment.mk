@@ -56,4 +56,4 @@ include $(CL_DIR)/project.mk
 # platform.mk defines BSG_PLATFORM_PATH, which is the host platform to
 # simulate (VCS or Verilator) or run on (AWS)
 # include $(CL_DIR)/platform.mk
-
+endif
